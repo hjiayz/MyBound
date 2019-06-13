@@ -5,5 +5,7 @@ authors = ["hjiayz <hjiayz@163.com>"]
 edition = "2018"
 license = "GPL-3.0"
 repository = "https://github.com/hjiayz/MyBound.git"
+description = "tools for RangeBounds"
+keywords = ["range","bound"]
 
 [dependencies]
