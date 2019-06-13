@@ -4,5 +4,6 @@ version = "0.1.0"
 authors = ["hjiayz <hjiayz@163.com>"]
 edition = "2018"
 license = "GPL-3.0"
+repository = "https://github.com/hjiayz/MyBound.git"
 
 [dependencies]
