@@ -189,3 +189,15 @@ pub trait MyRangeBounds<T: ?Sized>: RangeBounds<T> {
     }
 }
 impl<T, U: RangeBounds<T>> MyRangeBounds<T> for U {}
+
+impl<T> Into<Bound<T>> for MyBound<T> {
+    fn into(self)->Bound<T> {
+        self.0
+    }
+}
+
+impl<T> From<Bound<T>> for MyBound<T> {
+    fn from(src:Bound<T>)->MyBound<T> {
+        MyBound(src)
+    }
+}
